@@ -1,0 +1,27 @@
+{
+  "name": "mutations-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon ./src",
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "test-coverage": "./node_modules/.bin/ nyc --reporter=text mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.11",
+    "npm": "^6.11.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.18.9",
+    "nyc": "^14.1.1"
+  }
+}
