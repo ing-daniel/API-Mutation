@@ -16,7 +16,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "mongoose": "^5.5.11",
-    "npm": "^6.11.2"
+    "npm": "^6.13.4"
   },
   "devDependencies": {
     "chai": "^4.2.0",
